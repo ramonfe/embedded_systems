@@ -9,13 +9,13 @@
  *
  *****************************************************************************/
 /**
- * @file <Add File Name> 
- * @brief <Add Brief Description Here >
+ * @file <stats.c> 
+ * @brief < A file that covers the first ssignment for Embedded System course >
  *
  * <Add Extended Description Here>
  *
- * @author <Add FirsName LastName>
- * @date <Add date >
+ * @author <Ramon Felix>
+ * @date <Nov 14, 2019>
  *
  */
 
@@ -37,7 +37,27 @@ void main() {
 
   /* Other Variable Declarations Go Here */
   /* Statistics and Printing Functions Go Here */
+  sprint_statistics();
 
 }
 
-/* Add other Implementation File Code Here */
+void print_statistics(){
+}
+
+void print_array(unsigned char * ptr, unsigned int count){
+}
+
+unsigned char find_median(unsigned char * ptr, unsigned int count){
+}
+
+unsigned char find_mean(unsigned char * ptr, unsigned int count){
+}
+
+unsigned char find_maximum(unsigned char * ptr, unsigned int count){
+}
+
+unsigned char find_minimum(unsigned char * ptr, unsigned int count){
+}
+
+void sort_array(unsigned char * ptr, unsigned int count){
+}
