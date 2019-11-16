@@ -29,7 +29,7 @@
  *
  * @return void
  */
-void print_statistics();
+void print_statistics(unsigned char * ptr, unsigned int count);
 /**
  * @brief Given an array of data and a length, prints the array to the screen
  *
@@ -61,7 +61,6 @@ unsigned char find_mean(unsigned char * ptr, unsigned int count);
  * @param An unsigned integer as the size of the array
  * @return a maxim from given array
  */
- */
 unsigned char find_maximum(unsigned char * ptr, unsigned int count);
 /**
  * @brief Given an array of data and a length, returns the minimum
@@ -70,8 +69,7 @@ unsigned char find_maximum(unsigned char * ptr, unsigned int count);
  * @param An unsigned integer as the size of the array
  * @return a minimum from given array
  */
- */
-unsigned char find_minimum(unsigned char * ptr, unsigned int count);
+ unsigned char find_minimum(unsigned char * ptr, unsigned int count);
 /**
  * @brief Given an array of data and a length, sorts the array from largest to
  * smallest. (The zeroth Element should be the largest value, and the last 
